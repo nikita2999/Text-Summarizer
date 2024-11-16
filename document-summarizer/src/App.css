@@ -1,0 +1,114 @@
+/* App.css */
+
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e1f29, #14151c);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main App Container */
+.ai-app {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.ai-header {
+  margin-bottom: 2rem;
+}
+
+.ai-header h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ai-header p {
+  color: #aaa;
+}
+
+/* Main Input Section */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ai-textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+  padding: 1rem;
+  border: 1px solid #555;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 1rem;
+  backdrop-filter: blur(10px);
+  resize: none;
+  outline: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ai-textarea::placeholder {
+  color: #888;
+}
+
+.ai-button {
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.ai-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #005bb5, #009fcf);
+}
+
+/* Summary Section */
+.summary-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.summary-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.summary-container p {
+  font-size: 1rem;
+  color: #ddd;
+  line-height: 1.5;
+}
+
+/* Footer */
+.ai-footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
