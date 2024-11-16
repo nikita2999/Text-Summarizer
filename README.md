@@ -1,2 +1,17 @@
-# Text-Summarizer
-This is a web application that leverages artificial intelligence to summarize large chunks of text efficiently. Built with a Flask backend and a React frontend, this application allows users to input text and get an AI-generated summary instantly. 
+# Document Summarizer
+
+This project provides a simple Python-based tool to summarize large documents using a pre-trained transformer model.
+
+## Features
+- Summarizes documents into concise text.
+- Uses Hugging Face's `transformers` library for high-quality summarization.
+
+## Requirements
+- Python 3.8 or later
+- Dependencies listed in `requirements.txt`
+
+## Installation
+1. Clone the repository or download the files.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
