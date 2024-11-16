@@ -16,7 +16,7 @@ A simple Python-based tool to summarize large documents using a pre-trained tran
 ### 1. Clone the Repository
 Clone the repository or download the files directly:
 
-```bash
+
 git clone https://github.com/nikita2999/Text-Summarizer.git
 2. Install Dependencies
 Navigate to the project folder and install the required dependencies:
